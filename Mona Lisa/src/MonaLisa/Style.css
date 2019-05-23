@@ -1,0 +1,39 @@
+/** Styling sheet
+ * @author: Son Hai Lam, Hung Nguyen Truong Thanh, Dat Ho Quoc
+ * @version: 2.0
+ */
+.pane{
+    -fx-background-image: url("noisebg.png");
+    -fx-background-repeat: repeat;
+    -fx-background-position: center center;
+}
+.addButton{
+    -fx-background-image: url("noise.png");
+    -fx-border-color: rgba(0, 0, 0, 0.7);
+    -fx-border-radius: 0px;
+    -fx-border-style: dashed;
+    -fx-border-width: 1px;
+    -fx-font-family: Papyrus;
+}
+
+.addButton:hover{
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 );
+}
+
+.fakeButton{
+    -fx-background-image: url("noise.png");
+    -fx-border-color: rgba(0, 0, 0, 0.7);
+    -fx-border-radius: 0px;
+    -fx-border-style: dashed;
+    -fx-border-width: 1px;
+}
+
+.toolTip{
+    -fx-font-family: Arial;
+    -fx-font-size: 10px;
+    -fx-backgroudn-color: #a55315;
+}
+
+.label {
+    -fx-text-alignment: center;
+}
